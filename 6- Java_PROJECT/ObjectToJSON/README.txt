@@ -1,0 +1,1 @@
+Open this folder with IntelliJ and run the main function

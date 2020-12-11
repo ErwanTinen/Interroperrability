@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
+/**
+ * Attention, ce code ne fonctionne qu'avec des documents CSV valide
+ */
 public class Main {
 
 	private static final String COMMA_DELIMITER = ",";
@@ -21,9 +23,11 @@ public class Main {
 		    while ((line = br.readLine()) != null) {
 		        String[] values = line.split(COMMA_DELIMITER);
 		        l = l+1;
-		        c = values.length;
+		        if (l==1) c = values.length; //C'est la première ligne qui donne le nombre de colonne
 		    }
+		    System.out.println("Nombre de colonnnes :");
 		    System.out.println(c);
+			System.out.println("Nombre de lignes :");
 	        System.out.println(l);
 		}
 	}

@@ -22,14 +22,12 @@ true_time = datetime.datetime.strptime(time_string, "%Y-%m-%d %H:%M");
 print("vous avez rentrer");
 print(true_time);
 
-print(time.gmtime()); #temps écoulé depuis l'epoch
-print("Voici un autre format");
+#temps écoulé depuis l'epoch
+print("Voici le temps écoulée depuis l'epoch");
 print(time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()));
 
 #on peut aussi connaitre notre siècle
-
-print(time.strftime("%C"));
-
+print("nous sommes aux siècle :", time.strftime("%C"));
 print("il est ",time.strftime(" %R "));
 
 fin = time.time()
