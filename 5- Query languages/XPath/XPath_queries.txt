@@ -1,0 +1,4 @@
+/Agenda/Cours[2]/Début
+/Agenda/Cours[Type="TD" and Dates="2020-09-09" ]/Début
+/Agenda/Cours[xs:date("2020-09-25") < xs:date(/Agenda/Cours/Dates/) ]/Titre
+xs:time(/Agenda/Cours[Type="TD" and Dates="2020-09-09"]/Fin) - xs:time(/Agenda/Cours[Type="TD" and Dates="2020-09-09" ]/Début)

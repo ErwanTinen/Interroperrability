@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<website>
+	<head>
+		<title>Liste de pistes XML </title>
+	</head>
+	<Support_numérique>
+		<musiques>
+			<Titre>
+				<number>1 </number>
+				<Durée>3:54 </Durée>
+				<Name>Lover Never Felt so Good</Name>
+				<Vocals>Michael Jackson </Vocals>
+				<recording>of : Lover never felt so good </recording>
+				<writer>Paul Anka (in 1983) and Michael Jackson </writer>
+				<has_revision>Lover Never Felt So Good </has_revision>
+			</Titre>
+			<Titre>
+				<number>2 </number>
+				<Name>Chicago </Name>
+				<Vocals>Michael Jackson </Vocals>
+				<Durée>4:05 </Durée>
+			</Titre>
+			<Titre>
+				<number>3 </number>
+				<Name>Loving you </Name>
+				<Vocals>Michael Jackson </Vocals>
+				<Durée>3:15 </Durée>
+			</Titre>
+		</musiques>
+	</Support_numérique>
+</website>

@@ -1,0 +1,154 @@
+{
+  "Weather": {
+    "City": "Saint-Etienne",
+    "Region": "Loire",
+    "Country": "France",
+    "Date": "2020-10-24",
+    "Forecast": [
+      {
+        "time": "12am",
+        "temp_c": 9,
+        "weather_codition": "clear sky",
+        "humidity": 57
+      },
+      {
+        "time": "1am",
+        "temp_c": 9,
+        "weather_codition": "clear sky",
+        "humidity": 57
+      },
+      {
+        "time": "2am",
+        "temp_c": 8,
+        "weather_codition": "clear sky",
+        "humidity": 57
+      },
+      {
+        "time": "3am",
+        "temp_c": 8,
+        "weather_codition": "few clouds",
+        "humidity": 57
+      },
+      {
+        "time": "4am",
+        "temp_c": 9,
+        "weather_codition": "scattered clouds",
+        "humidity": 57
+      },
+      {
+        "time": "5am",
+        "temp_c": 8,
+        "weather_codition": "scattered clouds",
+        "humidity": 57
+      },
+      {
+        "time": "6am",
+        "temp_c": 7,
+        "weather_codition": "few clouds",
+        "humidity": 57
+      },
+      {
+        "time": "7am",
+        "temp_c": 8,
+        "weather_codition": "few clouds",
+        "humidity": 57
+      },
+      {
+        "time": "8am",
+        "temp_c": 8,
+        "weather_codition": "few clouds",
+        "humidity": 60
+      },
+      {
+        "time": "9am",
+        "temp_c": 9,
+        "weather_codition": "few clouds",
+        "humidity": 60
+      },
+      {
+        "time": "10am",
+        "temp_c": 11,
+        "weather_codition": "few clouds",
+        "humidity": 61
+      },
+      {
+        "time": "11am",
+        "temp_c": 8,
+        "weather_codition": "clear sky",
+        "humidity": 63
+      },
+      {
+        "time": "12am",
+        "temp_c": 13,
+        "weather_codition": "clear sky",
+        "humidity": 65
+      },
+      {
+        "time": "1pm",
+        "temp_c": 14,
+        "weather_codition": "clear sky",
+        "humidity": 65
+      },
+      {
+        "time": "2pm",
+        "temp_c": 16,
+        "weather_codition": "clear sky",
+        "humidity": 65
+      },
+      {
+        "time": "3pm",
+        "temp_c": 16,
+        "weather_codition": "clear sky",
+        "humidity": 65
+      },
+      {
+        "time": "4pm",
+        "temp_c": 16,
+        "weather_codition": "clear sky",
+        "humidity": 63
+      },
+      {
+        "time": "5pm",
+        "temp_c": 15,
+        "weather_codition": "clear sky",
+        "humidity": 60
+      },
+      {
+        "time": "6pm",
+        "temp_c": 13,
+        "weather_codition": "clear sky",
+        "humidity": 60
+      },
+      {
+        "time": "7pm",
+        "temp_c": 10,
+        "weather_codition": "clear sky",
+        "humidity": 58
+      },
+      {
+        "time": "8pm",
+        "temp_c": 10,
+        "weather_codition": "clear sky",
+        "humidity": 58
+      },
+      {
+        "time": "9pm",
+        "temp_c": 9,
+        "weather_codition": "clear sky",
+        "humidity": 58
+      },
+      {
+        "time": "10pm",
+        "temp_c": 9,
+        "weather_codition": "clear sky",
+        "humidity": 58
+      },
+      {
+        "time": "11pm",
+        "temp_c": 9,
+        "weather_codition": "clear sky",
+        "humidity": 58
+      }
+    ]
+  }
+}

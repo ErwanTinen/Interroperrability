@@ -1,0 +1,24 @@
+
+{
+	"@context": "http://schema.org/",
+	"@type":"Accommodation",
+			"floorLevel": 3,
+		"Room1":{
+			"@type":"Room",
+			"floorLevel": 3,
+			"url": "http://www.Fayol.com/Room1",
+			"accommodationCategory": "Room"
+		},
+		"Room2":{
+			"@type":"Room",
+			"floorLevel": 3,
+			"url": "http://www.Fayol.com/Room2",
+			"accommodationCategory": "Room"
+		},
+		"Room3":{
+			"@type":"Room",
+			"floorLevel": 3,
+			"url": "http://www.Fayol.com/Room3",
+			"accommodationCategory": "Room"
+		}
+}

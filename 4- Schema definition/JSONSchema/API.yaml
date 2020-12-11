@@ -1,0 +1,98 @@
+components:
+  schemas:
+    Readings:
+      properties:
+        heaters: 
+          type: array
+          items:
+            type: object 
+            properties:
+              OnOff: {
+                type: string,
+                enum: [on,off]
+              }
+        temperature: {type: integer}
+        windows:
+          type: array
+          items:
+            type: object 
+            properties:
+              OnOff: {
+                type: string,
+                enum: [on,off]
+              }
+                
+                
+info: {title: Exemple API, version: 0.1.9}
+openapi: 3.0.0
+paths:
+  /Storey:
+    get:
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                items: {type: integer}
+                type: array
+          description: an array of Fayol building Storeys
+      summary: Returns a list of Fayol Storeys
+  /Storeys/{StoreyId}/{RoomId}:
+    get:
+      parameters:
+      - description: the ID of the storey
+        in: path
+        name: StoreyId
+        required: true
+        schema: {format: int64, type: integer}
+      - description: the ID of the room
+        in: path
+        name: RoomId
+        required: true
+        schema: {format: int64, type: integer}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Readings'}
+          description: an array with the requested information
+      summary: Returns a status of the room
+    post:
+      parameters:
+      - description: the ID of the storey
+        in: path
+        name: StoreyId
+        required: true
+        schema: {format: int64, type: integer}
+      - description: the ID of the room
+        in: path
+        name: RoomId
+        required: true
+        schema: {format: int64, type: integer}
+      requestBody:
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/Readings'}
+        required: true
+      responses:
+        '201': {description: Updated}
+      summary: updates the readings of a room
+  /Storeys/{StoreyId}:
+    get:
+      parameters:
+      - description: the ID of the storey
+        in: path
+        name: StoreyId
+        required: true
+        schema: {format: int64, type: integer}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                items: {type: string}
+                type: array
+          description: an array of room inside the specified storey
+      summary: Returns a list of room inside the specified storey
+servers:
+- {url: 'http://api.example.org/'}

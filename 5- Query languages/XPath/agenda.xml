@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<Agenda>
+	<nom_utilisateur>LEFRANCOIS Maxime </nom_utilisateur>
+	<Mois>Septembre 2020 </Mois>
+	<Cours>
+		<Titre>Cours MASTER CYBER-PHYSICAL SOCIAL SYSTEM-M1 UML- Multi-Agent Programming</Titre>
+		<Type>Cours</Type>
+		<Statut>Actif</Statut>
+		<Dates>2020-09-29</Dates>
+		<Début>10:15</Début>
+		<Fin>11:45</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours MASTER CYBER-PHYSICAL SOCIAL SYSTEM-M1 UML- Multi-Agent Programming</Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-29</Dates>
+		<Début>8:30</Début>
+		<Fin>10:00</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours BIG DATA 3A - Données massives 2 </Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-28</Dates>
+		<Début>10:15</Début>
+		<Fin>12:15</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours BIG DATA 3A - Données massives 2 </Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-28</Dates>
+		<Début>8:00</Début>
+		<Fin>10:00</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours BIG DATA 3A - Données massives 2 </Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-21</Dates>
+		<Début>10:15</Début>
+		<Fin>12h:5</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours BIG DATA 3A - Données massives 2 </Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-21</Dates>
+		<Début>8:00</Début>
+		<Fin>10:00</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours INGENIERIE ET INTEROPERABILITE DES SYSTEMES INFORMATIQUES - Socle technique de développement logiciel</Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-11</Dates>
+		<Début>8:30</Début>
+		<Fin>10:00</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours INGENIERIE ET INTEROPERABILITE DES SYSTEMES INFORMATIQUES - Socle technique de développement logiciel</Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-11</Dates>
+		<Début>10:15</Début>
+		<Fin>11:45</Fin>
+	</Cours>
+	<Cours>
+		<Titre>TD ICM B1 -Formalisation à la programmation</Titre>
+		<Type>TD</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-09</Dates>
+		<Début>14:45</Début>
+		<Fin>16:45</Fin>
+	</Cours>
+	<Cours>
+		<Titre>Cours ICM -Formalisation à la programmation</Titre>
+		<Type>Cours</Type>
+		<Statut>Actif </Statut>
+		<Dates>2020-09-09</Dates>
+		<Début>13:30</Début>
+		<Fin>14:30</Fin>
+	</Cours>
+</Agenda>

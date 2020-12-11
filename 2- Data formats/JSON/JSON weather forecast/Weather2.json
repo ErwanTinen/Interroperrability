@@ -1,0 +1,16 @@
+{
+	"Weather" : {
+		"City" : "Saint-Etienne",
+		"Region" : "Loire",
+		"Country" : "France",
+		"localtime" : "2020-10-20 21:17",
+		"temp_c" : 10,
+		"pressure-hPA" : 1013,
+		"wind_ms" : 7.2,
+		"wind_direction" : "South",
+		"humidity-%": 55,
+		"UV" : 3,
+		"Visibility_km" : 10.0,
+		"Dew_point" : 7,
+	}
+}

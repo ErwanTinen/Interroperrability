@@ -1,0 +1,37 @@
+
+{
+	"@context": "http://schema.org/",
+	"@type":"Room",
+		"temperature":{
+			"@type":"Number"
+		},
+		"Windows":{
+			"@type":"itemList",
+			"@numberOfItem":2,
+			"itemListElement":[
+				{
+					"@type": "Thing",
+					"description": "Open"
+				},
+				{
+					"@type": "Thing",
+					"description": "Close"
+				}
+			]
+			
+		},
+		"Heaters":{
+			"@type":"ItemList",
+			"@numberOfItems":2,
+			"itemListElement":[
+				{
+					"@type": "Thing",
+					"description": "On"
+				},
+				{
+					"@type": "Thing",
+					"description": "Off"
+				}
+			]
+		}
+}

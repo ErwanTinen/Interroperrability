@@ -1,0 +1,4 @@
+$..Forecast[?(@.time=="2pm")].temp_c
+$..Forecast[?(@.time=="4pm")]
+$..Forecast[?(@.time=="4pm")].humidity
+$..Forecast[?(@.humidity>=65)].weather_codition
